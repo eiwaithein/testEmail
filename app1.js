@@ -5,6 +5,8 @@ commonconfig = config.get('common');
 var nodemailer = require('nodemailer');
 
 
+var transporter = nodemailer.createTransport(smtpConfig);
+
 "use strict";
 let mailOptions = {
 from: commonconfig.smtpSenderID,
@@ -13,8 +15,9 @@ subject: 'Test Email Subject',
 html: '<html><body><p>TEST EMAIL BODY</p></body></html>'
 };
 
-//var transporter = nodemailer.createTransport(smtpConfig);
 
+
+/*
 var transporter = nodemailer.createTransport({
     host: 'smtp.ap.jnj.com',
     port: 25,
@@ -25,6 +28,7 @@ var transporter = nodemailer.createTransport({
         ciphers: 'SSLv3'
     }
 });
+*/
 
 
 /*
