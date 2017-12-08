@@ -1,0 +1,18 @@
+{
+    "smtpConfig": {
+        "service":"Zoho",
+        "host": "smtp.zoho.com",
+        "port": 587,
+        "secure": false,
+        "ignoreTLS":true,
+        "requireTLS":false,
+        "auth": {
+            "user": "babygalaxy.dev@zoho.com",
+            "pass": "galaxy11!!"
+        }
+    },
+    "common": {
+        "smtpSenderID": "Baby Galaxy <babygalaxy.dev@zoho.com>",
+        "smtpReceiverID": "eiwaiwai.thein@sg.tribalworldwide.com"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "smtpConfig": {
+        "host": "smtp.ap.jnj.com",
+        "port": 25,
+        "secure": false,
+        "ignoreTLS":true,
+        "tls" : {
+            "rejectUnauthorized" :false,
+            "ciphers": "SSLv3"
+      }
+    },
+    "common": {
+        "smtpSenderID": "Baby Galaxy <babygalaxy.dev@zoho.com>",
+        "smtpReceiverID": "eiwaiwai.thein@sg.tribalworldwide.com"
+    }
+}
